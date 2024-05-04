@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>x o game</title>
+  </head>
+  <body>
+    <section>
+      <h1 class="gameTitle">Tic Tac Toe</h1>
+      <div class="statu">
+        <p class="statu">status :</p>
+        <p class="turns">X</p>
+      </div>
+
+      <div class="game-container">
+        <div class="cell" id="item1" onclick="game(this.id)"></div>
+        <div class="cell" id="item2" onclick="game(this.id)"></div>
+        <div class="cell" id="item3" onclick="game(this.id)"></div>
+        <div class="cell" id="item4" onclick="game(this.id)"></div>
+        <div class="cell" id="item5" onclick="game(this.id)"></div>
+        <div class="cell" id="item6" onclick="game(this.id)"></div>
+        <div class="cell" id="item7" onclick="game(this.id)"></div>
+        <div class="cell" id="item8" onclick="game(this.id)"></div>
+        <div class="cell" id="item9" onclick="game(this.id)"></div>
+      </div>
+      <h3 class="game-status"></h3>
+      <button class="restart-game" type="button" onclick="reload()">
+        restart game
+      </button>
+    </section>
+    <footer><p>created By @SAID ISMEG</p></footer>
+  </body>
+  <script src="main.js"></script>
+</html>
